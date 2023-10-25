@@ -1,0 +1,78 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+.navigation{
+    display: flex;
+    column-gap: 50px;
+    
+}
+.nav-tekst{
+    color: #696969;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.booknow{
+    padding: 13px 50px;
+    background: #FF5403;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.banner-container{
+    width: 100%;
+    height: 722px;
+    background-image: url(../imeges/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+}
+.dream-tru{
+    margin-top: 5px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.discover-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 66px;
+    padding: 13px 50px;
+    margin-top: 50px;
+    background: #FF5403;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
