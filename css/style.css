@@ -12,7 +12,6 @@ header{
 .navigation{
     display: flex;
     column-gap: 50px;
-    
 }
 .nav-tekst{
     color: #696969;
@@ -37,6 +36,15 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    text-align: center;
+}
+.active{
+    width: 100%;
+    height: 722px;
+    background-image: url(../imeges/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
     text-align: center;
 }
 .text-wrapper{
@@ -75,4 +83,190 @@ h1{
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
+}
+.top-places{
+    width: 1320px;
+    height: 1176px;
+    margin: 150px auto;
+}
+h2{
+	color: #041562;
+	text-align: center;
+	font-family: Inter;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 600;
+}
+.info{
+	color: #626262;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 20px 0px 0px;
+}
+.places{
+    margin: 75px 0px 50px;
+    display: flex;
+    column-gap: 50px;
+}
+.places2{
+    margin: 0px 0px 75px;
+    display: flex;
+    column-gap: 50px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+}
+.dis-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 66px;
+    padding: 13px 50px;
+    background: #FF5403;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.hotel-restorants{
+    width: 1320px;
+    height: 710pxpx;
+    margin: 0px auto 100px;
+}
+.hotel{
+    width: 1312;
+    height: 550px;
+    margin-top: 75px;
+    display: flex;
+    column-gap: 50px;
+}
+.hotel-img{
+    margin-bottom: 40px;
+}
+h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.rate{
+    display: flex;
+    column-gap: 5px;
+
+}
+.review{
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+.jakarta{
+    color: #626262;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+p{
+    color: #020202;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+.price{
+    color: #DA1212;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+
+}
+footer{
+    width: 100%;
+    height: 454px;
+    background: #19224D;
+    display: flex;
+    justify-content: space-between;
+    padding: 108px 100px;
+}
+.footer-list{
+    width: 314;
+    height: 266;
+    display: flex;
+    flex-direction: column;
+
+}
+h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.island-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.us{
+    width: 344px;
+    height: 250px;
+}
+.travel-package{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about-us{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.contact{
+    margin: 10px 0px;
+}
+.soc{
+    color: #FF5403;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 23px 0px 8px;
+}
+.soc-link{
+    display: flex;
+    row-gap: 15px;
+}
+.copyright{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000B3E;
+}
+.copy{
+    color: #C4C4C4;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
